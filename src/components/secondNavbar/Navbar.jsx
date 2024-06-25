@@ -18,12 +18,12 @@ const Navbar = () => {
   return (
     <div className="items-center border-b-2 border-b-[#DBDBDB] flex w-full bg-[#FFFFFF]">
       <div className="flex border-r-2 gap-2 bg-[#FFFFFF] pr-[26px] pl-[35px] py-[17px] justify-center items-center">
-        <Image src="/images/Group.svg" alt="Logo" width={133} height={41} />
-        {/* <Image
+        {/* <Image src="/images/Group.svg" alt="Logo" width={133} height={41} /> */}
+        <Image
           className="h-[41px] w-[133px]"
           src={"./images/logo.png"}
           alt=""
-        /> */}
+        />
         <Image src="/images/lessthen.png" alt="Logo" width={20} height={20} />
       </div>
       <div className="px-[18px] flex justify-between items-center w-full">
