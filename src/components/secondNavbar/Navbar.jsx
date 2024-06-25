@@ -18,8 +18,8 @@ const Navbar = () => {
   return (
     <div className="items-center border-b-2 border-b-[#DBDBDB] flex w-full bg-[#FFFFFF]">
       <div className="flex border-r-2 gap-2 bg-[#FFFFFF] pr-[26px] pl-[35px] py-[17px] justify-center items-center">
-        <Image className="h-[41px] w-[133px]" src={logo} alt="" />
-        <Image className="w-5 h-5" src={less} alt="" />
+        <Image src="/images/logo.png" alt="Logo" width={133} height={41} />
+        <Image src="/images/lessthen.png" alt="Logo" width={20} height={20} />
       </div>
       <div className="px-[18px] flex justify-between items-center w-full">
         <div className="flex gap-[5px] flex-col items-start">
@@ -50,8 +50,8 @@ const Navbar = () => {
             Present
           </button>
           <Button classNames="bg-[#2A5650]" text="Upgrade" />
-          <Image className="w-[17px] h-[22px]" src={notification} alt="" />
-          <Image className="w-[44px] h-[44px] rounded-full" src={user} alt="" />
+          <Image src="/images/notification.png" alt="" width={17} height={22} />
+          <Image className='rounded-full' src="/images/user.png" alt="" width={44} height={44} />
           <div>
             <h2 className="text-3 font-bold">Name</h2>
             <h2 className="text-[10px] font-normal">Gmail.com</h2>
