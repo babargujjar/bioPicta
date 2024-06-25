@@ -1,8 +1,8 @@
 "use client"
 import React,{useState} from 'react'
-import logo from "../../assets/logo.png"
+import logo from "@/assets/logo.png"
 import Image from 'next/image'
-import less from "../../assets/lessthen.png"
+import less from "@/assets/lessthen.png"
 import Button from '../button/Button'
 import notification from "@/assets/notification.png"
 import user from "@/assets/user.png"
