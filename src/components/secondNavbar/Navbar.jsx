@@ -1,7 +1,11 @@
 "use client"
 import React,{useState} from 'react'
+import logo from "@/assets/logo.png"
 import Image from 'next/image'
+import less from "@/assets/lessthen.png"
 import Button from '../button/Button'
+import notification from "@/assets/notification.png"
+import user from "@/assets/user.png"
 
 const Navbar = () => {
   const options = ["File", "Edit", "View","Share","Spell Check", "Settings"];
@@ -14,7 +18,12 @@ const Navbar = () => {
   return (
     <div className="items-center border-b-2 border-b-[#DBDBDB] flex w-full bg-[#FFFFFF]">
       <div className="flex border-r-2 gap-2 bg-[#FFFFFF] pr-[26px] pl-[35px] py-[17px] justify-center items-center">
-        <Image src="/images/logo.png" alt="Logo" width={133} height={41} />
+        <Image src="/images/Group.svg" alt="Logo" width={133} height={41} />
+        {/* <Image
+          className="h-[41px] w-[133px]"
+          src={"./images/logo.png"}
+          alt=""
+        /> */}
         <Image src="/images/lessthen.png" alt="Logo" width={20} height={20} />
       </div>
       <div className="px-[18px] flex justify-between items-center w-full">
@@ -47,7 +56,13 @@ const Navbar = () => {
           </button>
           <Button classNames="bg-[#2A5650]" text="Upgrade" />
           <Image src="/images/notification.png" alt="" width={17} height={22} />
-          <Image className='rounded-full' src="/images/user.png" alt="" width={44} height={44} />
+          <Image
+            className="rounded-full"
+            src="/images/user.png"
+            alt=""
+            width={44}
+            height={44}
+          />
           <div>
             <h2 className="text-3 font-bold">Name</h2>
             <h2 className="text-[10px] font-normal">Gmail.com</h2>
