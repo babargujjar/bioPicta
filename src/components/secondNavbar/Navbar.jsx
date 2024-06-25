@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* <Image src="/images/Group.svg" alt="Logo" width={133} height={41} /> */}
         <Image
           className="h-[41px] w-[133px]"
-          src={"./images/logo.png"}
+          src={logo}
           alt=""
         />
         <Image src="/images/lessthen.png" alt="Logo" width={20} height={20} />
