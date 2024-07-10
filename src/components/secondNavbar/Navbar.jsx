@@ -7,6 +7,7 @@ import Button from '../button/Button'
 import notification from "@/assets/notification.png"
 import user from "@/assets/user.png"
 
+
 const Navbar = () => {
   const options = ["File", "Edit", "View","Share","Spell Check", "Settings"];
 
